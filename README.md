@@ -29,25 +29,25 @@ This is a command line tool that was made to resemble the unix (same as apple) c
 ###[Chocolatey](https://chocolatey.org/)
 Chocolatey is Window's functional equivalent to **Apple's "Brew"**.  Chocolatey will allow you to easily download, update, or remove software directly from the command line interface with one simple command.  Example:
 
-'''choco install git
+`choco install git`
 
 This short bit of code will automatically download, extract, install, and place pointers to the program so that you can access it directly from the command line like this:
 
-'''git pull
+`git pull`
 
 Programs can be just as easily removed:
 
-'''choco uninstall git
+`choco uninstall git`
 
 ###Install Chocolatey
 
 To install Chocolatey, you must first open up PowerShell as an administrator (by right clicking PowerShell Icon).  Paste in the following command:
 
-'''Set-ExecutionPolicy Unrestricted
+`Set-ExecutionPolicy Unrestricted`
 
 Then paste and run the following:
 
-'''(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1')))>$null 2>&1
+`(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1')))>$null 2>&1`
 
 
 This should install chocolatey on your machine.  If you have issues you can look at other download options  [here](https://github.com/chocolatey/choco/wiki/Installation).  Go to their website to see a list of the available packages [here](https://chocolatey.org/)
