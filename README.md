@@ -6,9 +6,9 @@ How to set up Window's Package Manager and Unix like command line
 
 ##Purpose
 
-DevMountain recommends that students come to class with a macbook product during the span of the course.  The main reason for this is that Windows and IOS environments are built on fundamentally different architectures.  Most of our instructors and mentors work full time on Apple machines and oftentimes are unable to help students when issues occur on a Windows machine.  
+DevMountain recommends that students come to class with a macbook product during the span of the course.  The main reason for this is that Windows and IOS environments are built on fundamentally different architectures.  Most of our instructors and mentors work full time on Apple machines and may not be able to help students when issues occur on a Windows machine.  
 
-We are sensitive, however, to the fact that some people may not have the resources to purchase a new machine.  Though we cannot eliminate all differences, the instructions that follow should help minimize the differences between Apple and Windows environments, especially as they relate to the first couple of weeks of class.
+We are sensitive, however, to the fact that some people may not have the resources to purchase a new machine.  Though we cannot eliminate all discrepancies, the instructions that follow should help minimize the differences between Apple and Windows commandline and package management environments, especially as they relate to the first couple of weeks of class.
 
 
 ##Command Line
@@ -50,9 +50,9 @@ Then paste and run the following:
   `(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1')))>$null 2>&1`
 
 
-This should install chocolatey on your machine.  If you have issues you can look at other download options  [here](https://github.com/chocolatey/choco/wiki/Installation).  Go to their website to see a list of the available packages [here](https://chocolatey.org/)
+This should install chocolatey on your machine.  If you have issues you can look at other download options  [here](https://github.com/chocolatey/choco/wiki/Installation).  Go to their website to see a list of the available packages [here](https://chocolatey.org/).
 
-Note that you must be in PowerShell as an admin (by right clicking the icon) to download new packages.  Just remember that chocolatey will do the same thing that "Brew" does for a mac.  Here is a list of programs that you may eventually download via chocolatey:
+Note that you must be in PowerShell as an admin (by right clicking the icon) to download new packages.  Just remember that chocolatey will do the same thing that "Brew" does for a mac.  Here is a list of some programs that you may eventually download via chocolatey:
 
 - git
 - sublimeText3
