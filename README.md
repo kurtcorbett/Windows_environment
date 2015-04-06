@@ -19,7 +19,7 @@ Powershell is a more powerful version of cmd prompt that is native to windows.  
 
 ###[cmder](http://gooseberrycreative.com/cmder/)
 
-This is a command line tool that was made to resemble the unix (same as apple) command line.  It doesn't contain ALL of the same commands, but it is very close and will be your best option to keep up during the first few days of class.  You can install it by FIRST installing chocolatey below, then running the following command in PowerShell (as an admin):
+This is a command line tool that was made to resemble the unix (same as apple) command line.  It doesn't contain ALL of the same commands, but it is very close and will be your best option to keep up during the first few days of class.  You can install it by **FIRST** installing chocolatey below, then running the following command in PowerShell (as an admin):
 
   ```choco install cmder```
 
